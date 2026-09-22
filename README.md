@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="mailto:messiasayi@gmail.com"><img src="https://img.shields.io/badge/Email-messiasayi%40gmail.com-EA4335?logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-SAYI_Gloire-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/gloire-sayi-082437349"><img src="https://img.shields.io/badge/LinkedIn-gloire--sayi-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/📍-Brazzaville,_Congo🌍-green" alt="Location">
   <img src="https://img.shields.io/badge/Open_to-Remote_Work-brightgreen" alt="Open to remote">
 </p>
