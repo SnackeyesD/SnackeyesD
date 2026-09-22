@@ -29,7 +29,7 @@ I **ship** full-stack web products *and* I **operate** the telecom infrastructur
 |---|---|---|---|
 | [free-qr-code](https://github.com/SnackeyesD/free-qr-code) | QR Code SaaS — create, track & analyze scans | React 19 · Hono · Cloudflare Workers/D1/R2 · JWT · Zod | [🔗 demo](https://free-qr-code-saas.getcongo.com/) |
 | [expense-manager](https://github.com/SnackeyesD/expense-manager) | Full-stack personal finance manager | React · Express · Prisma · PostgreSQL · Docker | — |
-| [lrc-collaborators-platform](https://github.com/SnackeyesD/Test-dev) | Collaborators management platform (RBAC, audit) | Node.js · Express · Prisma · Arcjet · PostgreSQL | — |
+| [congo-cow](https://github.com/SnackeyesD/congo-cow) | Collaborators management platform (RBAC, audit) | Node.js · Express · Prisma · Arcjet · PostgreSQL | — |
 | [FoncierChain](https://github.com/SnackeyesD/FoncierChain) | Land registry on blockchain (🇫🇷 African market) | React · Vite · Web3 | — |
 
 ## 🧰 Tech Stack
