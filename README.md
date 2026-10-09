@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=3" alt="SAYI Gloire — Full-Stack Software Engineer · Telecom VAS & Mobile Money (ex-Huawei)" width="820">
+  <img src="assets/banner.svg?v=4" alt="SAYI Gloire — Full-Stack Software Engineer · Telecom VAS & Mobile Money (ex-Huawei)" width="820">
 </p>
 
 <p align="center">
