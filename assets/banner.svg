@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b27"/>
+      <stop offset="1" stop-color="#24283b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="220" rx="12" fill="url(#bg)"/>
+
+  <!-- particules flottantes -->
+  <circle cx="120" cy="60" r="2.5" fill="#7dcfff" opacity="0.6">
+    <animate attributeName="cy" values="60;48;60" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="685" cy="52" r="2" fill="#9ece6a" opacity="0.5">
+    <animate attributeName="cy" values="52;64;52" dur="7s" begin="-2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="7s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="645" cy="120" r="2.5" fill="#bb9af7" opacity="0.5">
+    <animate attributeName="cy" values="120;108;120" dur="5s" begin="-1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="130" r="2" fill="#7aa2f7" opacity="0.5">
+    <animate attributeName="cy" values="130;140;130" dur="8s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- nom (fade in au chargement) -->
+  <text x="400" y="98" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#c0caf5" opacity="0">SAYI Gloire
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <!-- rôles en rotation (fondu croisé, 4 rôles × 3s = cycle 12s) -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" text-anchor="middle" fill="#7dcfff">
+    <text x="400" y="140" opacity="0">Full-Stack Software Engineer
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="140" opacity="0">Telecom VAS &amp; Mobile Money Specialist
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-3s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="140" opacity="0">React · TypeScript · Node.js
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-6s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="140" opacity="0">Lead Software Engineer @ Colabing Group
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- soulignement qui se dessine et s'efface -->
+  <line x1="330" y1="158" x2="470" y2="158" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.15;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- vagues animées -->
+  <path fill="#24283b" opacity="0.9" d="M0,182 C133,162 267,202 400,182 C533,162 667,202 800,182 L800,220 L0,220 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 7; 0 0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path fill="#2f344d" d="M0,192 C133,176 267,208 400,192 C533,176 667,208 800,192 L800,220 L0,220 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- point lumineux sur la vague -->
+  <circle cx="400" cy="182" r="3" fill="#7aa2f7">
+    <animate attributeName="cy" values="182;189;182" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

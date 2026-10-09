@@ -1,8 +1,5 @@
-<h1 align="center">Hi, I'm SAYI Gloire 👋</h1>
-
 <p align="center">
-  <strong>Full-Stack Software Engineer</strong> — React · TypeScript · Node.js<br>
-  with a rare specialty: <strong>Telecom VAS & Mobile Money platforms</strong> (ex-Huawei)
+  <img src="assets/banner.svg" alt="SAYI Gloire — Full-Stack Software Engineer · Telecom VAS & Mobile Money (ex-Huawei)" width="820">
 </p>
 
 <p align="center">
