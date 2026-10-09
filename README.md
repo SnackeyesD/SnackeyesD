@@ -32,7 +32,8 @@ Je **livre** des produits web full-stack *et* j'**opère** l'infrastructure tél
 | [momo-calc](https://momo-calc.getcongo.com/) | Calculateur de frais Mobile Money Congo (MTN MoMo & Airtel Money) | Web · SEO | [🔗 demo](https://momo-calc.getcongo.com/) |
 | [expense-manager](https://github.com/SnackeyesD/expense-manager) | Gestionnaire de finances personnelles full-stack | React · Express · Prisma · PostgreSQL · Docker | — |
 | [congo-cow](https://github.com/SnackeyesD/congo-cow) | Plateforme de gestion de collaborateurs (RBAC, audit) | Node.js · Express · Prisma · Arcjet · PostgreSQL | — |
-| [FoncierChain](https://github.com/SnackeyesD/FoncierChain) | Registre foncier sur blockchain (marché africain 🇫🇷) | React · Vite · Web3 | — |
+| 🚧 EduTalent (Talenter App) | SaaS EdTech — transformer les données scolaires en opportunités de carrière pour lycéens africains | Node.js · Express · TypeScript · Prisma · React · Redis | *en développement* |
+| [FoncierChain](https://github.com/SnackeyesD/FoncierChain) | Registre foncier sur blockchain (marché africain 🇫🇷) | React · Vite · Web3 | 🚧 *en développement* |
 
 ## 🧰 Stack technique
 
@@ -76,7 +77,8 @@ I **ship** full-stack web products *and* I **operate** the telecom infrastructur
 | [momo-calc](https://momo-calc.getcongo.com/) | Mobile Money fees calculator for Congo (MTN MoMo & Airtel Money) | Web · SEO | [🔗 demo](https://momo-calc.getcongo.com/) |
 | [expense-manager](https://github.com/SnackeyesD/expense-manager) | Full-stack personal finance manager | React · Express · Prisma · PostgreSQL · Docker | — |
 | [congo-cow](https://github.com/SnackeyesD/congo-cow) | Collaborators management platform (RBAC, audit) | Node.js · Express · Prisma · Arcjet · PostgreSQL | — |
-| [FoncierChain](https://github.com/SnackeyesD/FoncierChain) | Land registry on blockchain (🇫🇷 African market) | React · Vite · Web3 | — |
+| 🚧 EduTalent (Talenter App) | EdTech SaaS turning school data into career opportunities for African high-school students | Node.js · Express · TypeScript · Prisma · React · Redis | *in development* |
+| [FoncierChain](https://github.com/SnackeyesD/FoncierChain) | Land registry on blockchain (🇫🇷 African market) | React · Vite · Web3 | 🚧 *in development* |
 
 ## 🧰 Tech Stack
 
@@ -99,12 +101,40 @@ Remote opportunities — worldwide / Africa / francophone markets:
 
 </details>
 
+## 🧰 Daily Toolbox
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="42" alt="React" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="42" alt="Next.js" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="42" alt="TypeScript" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="42" alt="Node.js" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="42" alt="Express" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="42" alt="Tailwind CSS" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="42" alt="MongoDB" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="42" alt="PostgreSQL" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="42" alt="Prisma" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="42" alt="Docker" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="42" alt="Nginx" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="42" alt="Kubernetes" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg" width="42" alt="Linux" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" width="42" alt="Git" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" alt="Python" />
+</p>
+
 ## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SnackeyesD&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" height="165">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SnackeyesD&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="165">
 </p>
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SnackeyesD/SnackeyesD/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SnackeyesD/SnackeyesD/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation eating my GitHub contribution graph" src="https://raw.githubusercontent.com/SnackeyesD/SnackeyesD/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
