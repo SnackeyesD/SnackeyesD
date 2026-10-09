@@ -8,63 +8,186 @@
       <stop offset="0" stop-color="#7aa2f7"/>
       <stop offset="1" stop-color="#bb9af7"/>
     </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1c2b"/>
+      <stop offset="1" stop-color="#141521"/>
+    </linearGradient>
   </defs>
 
   <rect width="800" height="220" rx="12" fill="url(#bg)"/>
 
-  <!-- particules flottantes -->
-  <circle cx="120" cy="60" r="2.5" fill="#7dcfff" opacity="0.6">
-    <animate attributeName="cy" values="60;48;60" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6s" repeatCount="indefinite"/>
+  <!-- 🌙 lune + halo -->
+  <circle cx="730" cy="38" r="24" fill="#e0af68" opacity="0.12">
+    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="685" cy="52" r="2" fill="#9ece6a" opacity="0.5">
-    <animate attributeName="cy" values="52;64;52" dur="7s" begin="-2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="7s" begin="-2s" repeatCount="indefinite"/>
+  <circle cx="730" cy="38" r="15" fill="#e0af68"/>
+  <circle cx="725" cy="34" r="3" fill="#d19a66" opacity="0.55"/>
+  <circle cx="735" cy="43" r="2" fill="#d19a66" opacity="0.55"/>
+
+  <!-- ✨ étoiles scintillantes -->
+  <circle cx="90" cy="30" r="2" fill="#c0caf5" opacity="0.3">
+    <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="645" cy="120" r="2.5" fill="#bb9af7" opacity="0.5">
-    <animate attributeName="cy" values="120;108;120" dur="5s" begin="-1s" repeatCount="indefinite"/>
+  <circle cx="150" cy="58" r="1.5" fill="#7dcfff" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.1s" begin="-1s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="150" cy="130" r="2" fill="#7aa2f7" opacity="0.5">
-    <animate attributeName="cy" values="130;140;130" dur="8s" begin="-3s" repeatCount="indefinite"/>
+  <circle cx="55" cy="88" r="1.8" fill="#bb9af7" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.7s" begin="-0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="615" cy="26" r="2" fill="#c0caf5" opacity="0.35">
+    <animate attributeName="opacity" values="0.35;0.08;0.35" dur="3.7s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="665" cy="62" r="1.6" fill="#9ece6a" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="3s" begin="-1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="20" r="1.5" fill="#7aa2f7" opacity="0.25">
+    <animate attributeName="opacity" values="0.25;0.7;0.25" dur="4.6s" begin="-3s" repeatCount="indefinite"/>
   </circle>
 
   <!-- nom (fade in au chargement) -->
-  <text x="400" y="98" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#c0caf5" opacity="0">SAYI Gloire
+  <text x="400" y="64" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#c0caf5" opacity="0">SAYI Gloire
     <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
   </text>
 
   <!-- rôles en rotation (fondu croisé, 4 rôles × 3s = cycle 12s) -->
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" text-anchor="middle" fill="#7dcfff">
-    <text x="400" y="140" opacity="0">Full-Stack Software Engineer
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#7dcfff">
+    <text x="400" y="100" opacity="0">Full-Stack Software Engineer
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="140" opacity="0">Telecom VAS &amp; Mobile Money Specialist
+    <text x="400" y="100" opacity="0">Telecom VAS &amp; Mobile Money Specialist
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-3s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="140" opacity="0">React · TypeScript · Node.js
+    <text x="400" y="100" opacity="0">React · TypeScript · Node.js
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-6s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="140" opacity="0">Lead Software Engineer @ Colabing Group
+    <text x="400" y="100" opacity="0">Lead Software Engineer @ Colabing Group
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.21;0.25" dur="12s" begin="-9s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- soulignement qui se dessine et s'efface -->
-  <line x1="330" y1="158" x2="470" y2="158" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+  <!-- soulignement qui se dessine -->
+  <line x1="330" y1="116" x2="470" y2="116" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
     <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.15;0.85;1" dur="6s" repeatCount="indefinite"/>
   </line>
 
-  <!-- vagues animées -->
-  <path fill="#24283b" opacity="0.9" d="M0,182 C133,162 267,202 400,182 C533,162 667,202 800,182 L800,220 L0,220 Z">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 7; 0 0" dur="7s" repeatCount="indefinite"/>
-  </path>
-  <path fill="#2f344d" d="M0,192 C133,176 267,208 400,192 C533,176 667,208 800,192 L800,220 L0,220 Z">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- point lumineux sur la vague -->
-  <circle cx="400" cy="182" r="3" fill="#7aa2f7">
-    <animate attributeName="cy" values="182;189;182" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.4;1" dur="7s" repeatCount="indefinite"/>
+  <!-- lucioles -->
+  <circle cx="320" cy="150" r="2" fill="#9ece6a" opacity="0.5">
+    <animate attributeName="cy" values="150;138;150" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="320;332;320" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="5.5s" repeatCount="indefinite"/>
   </circle>
+  <circle cx="480" cy="158" r="1.8" fill="#e0af68" opacity="0.45">
+    <animate attributeName="cy" values="158;146;158" dur="6.5s" begin="-2s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="480;468;480" dur="8s" begin="-1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="6.5s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 🟤 graines (la cible de l'oiseau) -->
+  <ellipse cx="283" cy="174" rx="3.2" ry="2.2" fill="#e0af68">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.25;0.27;1" dur="24s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="581" cy="174" rx="3.2" ry="2.2" fill="#e0af68">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.65;0.67;1" dur="24s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ✨ étincelles quand il mange -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.25;0.27;0.33;1" dur="24s" repeatCount="indefinite"/>
+    <path d="M283,162 l2.5,4 l4,2.5 l-4,2.5 l-2.5,4 l-2.5,-4 l-4,-2.5 l4,-2.5 Z" fill="#9ece6a"/>
+    <circle cx="283" cy="170" r="2" fill="#e0af68">
+      <animate attributeName="cy" values="172;172;156;156" keyTimes="0;0.25;0.33;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.65;0.67;0.73;1" dur="24s" repeatCount="indefinite"/>
+    <path d="M581,162 l2.5,4 l4,2.5 l-4,2.5 l-2.5,4 l-2.5,-4 l-4,-2.5 l4,-2.5 Z" fill="#9ece6a"/>
+    <circle cx="581" cy="170" r="2" fill="#e0af68">
+      <animate attributeName="cy" values="172;172;156;156" keyTimes="0;0.65;0.73;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 🌱 herbes qui ondulent -->
+  <g stroke="#9ece6a" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.8">
+    <g transform="translate(60,181)"><g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="3.2s" repeatCount="indefinite"/><path d="M0,0 L-3,-10 M0,0 L0,-13 M0,0 L3,-9"/></g></g>
+    <g transform="translate(140,183)"><g><animateTransform attributeName="transform" type="rotate" values="3;-3;3" dur="2.8s" begin="-1s" repeatCount="indefinite"/><path d="M0,0 L-3,-9 M0,0 L1,-12 M0,0 L4,-8"/></g></g>
+    <g transform="translate(395,182)"><g><animateTransform attributeName="transform" type="rotate" values="-3;5;-3" dur="3.6s" begin="-0.5s" repeatCount="indefinite"/><path d="M0,0 L-4,-10 M0,0 L0,-14 M0,0 L3,-10"/></g></g>
+    <g transform="translate(470,184)"><g><animateTransform attributeName="transform" type="rotate" values="4;-4;4" dur="3s" begin="-2s" repeatCount="indefinite"/><path d="M0,0 L-3,-8 M0,0 L1,-11 M0,0 L4,-9"/></g></g>
+    <g transform="translate(655,181)"><g><animateTransform attributeName="transform" type="rotate" values="-5;3;-5" dur="3.4s" begin="-1.5s" repeatCount="indefinite"/><path d="M0,0 L-3,-10 M0,0 L0,-13 M0,0 L3,-9"/></g></g>
+    <g transform="translate(745,183)"><g><animateTransform attributeName="transform" type="rotate" values="3;-5;3" dur="2.9s" begin="-0.8s" repeatCount="indefinite"/><path d="M0,0 L-4,-9 M0,0 L0,-12 M0,0 L4,-8"/></g></g>
+  </g>
+
+  <!-- petits cailloux -->
+  <ellipse cx="180" cy="184" rx="4" ry="2" fill="#2f344d"/>
+  <ellipse cx="360" cy="188" rx="3" ry="1.8" fill="#2f344d"/>
+  <ellipse cx="520" cy="185" rx="4.5" ry="2.2" fill="#2f344d"/>
+  <ellipse cx="700" cy="188" rx="3" ry="1.8" fill="#2f344d"/>
+
+  <!-- sol -->
+  <path fill="url(#ground)" d="M0,178 C150,170 300,186 450,177 C600,168 700,184 800,177 L800,220 L0,220 Z"/>
+  <path d="M0,178 C150,170 300,186 450,177 C600,168 700,184 800,177" fill="none" stroke="#2f344d" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- 🐦 L'OISEAU — scène de 24s : marche → regarde → picore → mange → repart -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.84;0.87;0.96;0.99;1" dur="24s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="70 178; 250 178; 250 178; 550 178; 550 178; 730 178"
+        keyTimes="0;0.14;0.30;0.52;0.68;0.86" dur="24s" repeatCount="indefinite"/>
+
+      <!-- rebond permanent (démarche), oiseau légèrement rétréci pour ne pas toucher au texte -->
+      <g transform="scale(0.92)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2.5; 0 0" dur="0.7s" repeatCount="indefinite" additive="sum"/>
+
+        <!-- accroupissement lors des picores -->
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 0; 0 0; 10 0; 10 0; 0 0; 10 0; 10 0; 0 0; 0 0; 10 0; 10 0; 0 0; 0 0"
+            keyTimes="0;0.215;0.225;0.245;0.255;0.265;0.27;0.29;0.625;0.632;0.65;0.67;1"
+            dur="24s" repeatCount="indefinite"/>
+
+          <!-- pattes -->
+          <g stroke="#ff9e64" stroke-width="2" stroke-linecap="round">
+            <path d="M-3,-12 L-3,0 M-3,0 L-7,0"/>
+            <path d="M5,-12 L5,0 M5,0 L9,0"/>
+          </g>
+
+          <!-- queue qui remue (pivot à sa base) -->
+          <path fill="#5d8fe0" d="M-16,-30 L-42,-42 L-35,-24 Z">
+            <animateTransform attributeName="transform" type="rotate" values="-6 -16 -30; 6 -16 -30; -6 -16 -30" dur="1.1s" repeatCount="indefinite" additive="sum"/>
+          </path>
+
+          <!-- corps -->
+          <ellipse cx="0" cy="-26" rx="21" ry="14" fill="#7dcfff"/>
+          <ellipse cx="5" cy="-21" rx="12" ry="8" fill="#c0caf5" opacity="0.9"/>
+
+          <!-- aile -->
+          <ellipse cx="-3" cy="-28" rx="11" ry="6.5" fill="#5d8fe0">
+            <animateTransform attributeName="transform" type="rotate" values="0 -3 -26; 5 -3 -26; 0 -3 -26" dur="1.4s" repeatCount="indefinite" additive="sum"/>
+          </ellipse>
+
+          <!-- tête (pivot cou 12,-36) : regarde, picore, surveille -->
+          <g>
+            <animateTransform attributeName="transform" type="rotate"
+              values="0;0;-7;0;50;12;50;0;0;6;0;50;12;50;0;0;0"
+              keyTimes="0;0.15;0.17;0.19;0.22;0.235;0.25;0.28;0.55;0.57;0.59;0.62;0.635;0.65;0.68;0.85;1"
+              dur="24s" repeatCount="indefinite"/>
+
+            <circle cx="19" cy="-44" r="11" fill="#7dcfff"/>
+            <circle cx="22" cy="-41" r="5" fill="#c0caf5" opacity="0.7"/>
+            <path d="M14,-53 Q12,-61 18,-58" fill="none" stroke="#5d8fe0" stroke-width="2" stroke-linecap="round"/>
+            <!-- œil qui cligne (pivot au centre de l'œil) -->
+            <g transform="translate(23,-46)">
+              <g>
+                <animateTransform attributeName="transform" type="scale" values="1 1; 1 1; 1 0.12; 1 1; 1 1" keyTimes="0;0.9;0.93;0.96;1" dur="5s" repeatCount="indefinite"/>
+                <circle r="3.2" fill="#ffffff"/>
+                <circle cx="1" r="1.6" fill="#1a1b27"/>
+              </g>
+            </g>
+            <!-- bec -->
+            <path d="M28,-45 L40,-41 L29,-38 Z" fill="#ff9e64"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
